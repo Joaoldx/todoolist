@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.joaodomingos</groupId>
 	<artifactId>todoolist</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>todoolist</name>
 	<description>Gerenciador de tarefas</description>
 	<properties>

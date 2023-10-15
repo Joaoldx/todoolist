@@ -47,6 +47,7 @@ public class TaskController {
         return ResponseEntity.status(HttpStatus.OK).body(task);
     }
     
+    @GetMapping("/")
     public ResponseEntity<List<TaskModel>> list(HttpServletRequest servletRequest) {
         var idUser = servletRequest.getAttribute("idUser");
         var tasks = this.taskRepository.findByIdUser((UUID) idUser);

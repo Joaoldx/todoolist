@@ -1,4 +1,4 @@
-package br.com.joaodomingos.todoolist.user;
+package br.com.joaodomingos.todolist.user;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

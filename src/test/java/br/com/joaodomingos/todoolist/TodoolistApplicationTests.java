@@ -1,10 +1,10 @@
-package br.com.joaodomingos.todoolist;
+package br.com.joaodomingos.todolist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodoolistApplicationTests {
+class TodolistApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package br.com.joaodomingos.todoolist.filter;
+package br.com.joaodomingos.todolist.filter;
 
 import java.io.IOException;
 import java.util.Base64;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
-import br.com.joaodomingos.todoolist.user.IUserRepository;
+import br.com.joaodomingos.todolist.user.IUserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

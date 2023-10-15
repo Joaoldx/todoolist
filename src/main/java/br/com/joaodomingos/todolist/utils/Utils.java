@@ -1,4 +1,4 @@
-package br.com.joaodomingos.todoolist.utils;
+package br.com.joaodomingos.todolist.utils;
 
 import java.beans.PropertyDescriptor;
 import java.util.HashSet;

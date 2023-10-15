@@ -1,4 +1,4 @@
-package br.com.joaodomingos.todoolist.task;
+package br.com.joaodomingos.todolist.task;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.joaodomingos.todoolist.utils.Utils;
+import br.com.joaodomingos.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
